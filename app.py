@@ -173,5 +173,8 @@ def app():
             df=get_data(user_name)
 
             st.write(df)
+            
+st.subheader("Created By: Srivari")
+
 if __name__ == "__main__":
     app()
