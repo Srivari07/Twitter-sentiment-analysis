@@ -8,21 +8,21 @@ This is a cool web app integrated with twitter which takes the twitter handel as
 
 This tool performs the following tasks :
 
-    1)Fetches the 5 most recent tweets from the given twitter handel
+   1)Fetches the 5 most recent tweets from the given twitter handel
   
-    2)Performs Sentiment Analysis a displays it in form of a Bar Graph
+   2)Performs Sentiment Analysis a displays it in form of a Bar Graph
 
 2.This tool fetches the last 100 tweets from the twitter handel & Performs the following tasks Converts it into a DataFrame
 
-    1)Cleans the text
+   1)Cleans the text
 
-    2)Analyzes Subjectivity of tweets and adds an additional column for it
+   2)Analyzes Subjectivity of tweets and adds an additional column for it
 
-    3)Analyzes Polarity of tweets and adds an additional column for it
+   3)Analyzes Polarity of tweets and adds an additional column for it
 
-    4)Analyzes Sentiments of tweets and adds an additional column for it
+   4)Analyzes Sentiments of tweets and adds an additional column for it
   
-    5)This respository contains all the files for end to end model building and deployment of tweet analyzer web app
+   5)This respository contains all the files for end to end model building and deployment of tweet analyzer web app
 
 Procfile : To generate command to run the app
 
