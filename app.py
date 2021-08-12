@@ -1,7 +1,6 @@
 import streamlit as st
 import tweepy
 from textblob import TextBlob
-#import streamlit_wordcloud as wordcloud
 import pandas as pd
 import numpy as np
 import re
@@ -24,7 +23,7 @@ authenticate.set_access_token(accessToken, accessTokenSecret)
 api = tweepy.API(authenticate, wait_on_rate_limit = True)
 
 def app():
-    st.title("Tweet Analyzer")
+    st.title("Tweet Analysis")
     activities=["Tweet Analyzer","Generate Twitter Data"]
     choice = st.sidebar.selectbox("Select Your Activity",activities)
 
@@ -173,8 +172,5 @@ def app():
             df=get_data(user_name)
 
             st.write(df)
-            
-st.subheader("Created By: Srivari")
-
 if __name__ == "__main__":
     app()
