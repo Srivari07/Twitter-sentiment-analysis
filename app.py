@@ -8,10 +8,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Twitter API Credentials
-consumerKey = 'SMbAkjDf840wP7jJC3NmUyymj'
-consumerSecret = 'VCFENdeeXMW3iwpt5BAYalPtoCAF5Coygb2E7THsDVU0ogq4Ue'
-accessToken = '1134087575772192768-fPY7hReGlOhg3JIi5IauFqz3aSe3WI'
-accessTokenSecret = 'glpQCNqZQ7aCAhw11wJ1ze2y0IENDMFxtDD0XHtEQ08GU'
+consumerKey = 
+consumerSecret = 
+accessToken = 
+accessTokenSecret = 
 
 #Create the authentication object
 authenticate = tweepy.OAuthHandler(consumerKey, consumerSecret) 
