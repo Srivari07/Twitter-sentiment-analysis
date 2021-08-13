@@ -2,6 +2,8 @@
 
 This is a web app integrated with twitter which takes the twitter handel as as input and does :
 
+Web Link: https://share.streamlit.io/srivari07/twitter-sentiment-analysis/main/app.py
+
 1.Analyze the tweets of your favourite Personalities
 
 This tool performs the following tasks :
@@ -19,13 +21,9 @@ Cleans the text
 
 This respository contains all the files for end to end model building and deployment of tweet analyzer web app
 
-Procfile : To generate command to run the app
-
 Tweet_Analyzer.ipynb : Model building File
 
 Requirements.txt: Requirement file
-
-setup.sh : predefined file for streamlite on heroku
 
 This app is created on a tool called Streamlit which saves you from the headache of front-end devlopment ,you can install it by:
 Streamlit documentation: https://docs.streamlit.io/en/latest/
