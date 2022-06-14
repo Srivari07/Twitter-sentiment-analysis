@@ -18,6 +18,10 @@ Cleans the text
 2. Analyzes Polarity of tweets and adds an additional column for it
 3. Analyzes Sentiments of tweets and adds an additional column for it
 
+![image](https://user-images.githubusercontent.com/69836058/173535719-bf29d1b4-1e30-4055-a429-09b95db1b7ee.png)
+
+![image](https://user-images.githubusercontent.com/69836058/173536105-b182c37e-30b7-4817-843f-d44ce3a9045f.png)
+
 
 This respository contains all the files for end to end model building and deployment of tweet analyzer web app
 
